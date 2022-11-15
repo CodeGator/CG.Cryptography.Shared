@@ -1,0 +1,87 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CG.Cryptography.Shared.Extensions
+  name: CG.Cryptography.Shared.Extensions
+  href: api/CG.Cryptography.Shared.Extensions.html
+  commentId: N:CG.Cryptography.Shared.Extensions
+  fullName: CG.Cryptography.Shared.Extensions
+  nameWithType: CG.Cryptography.Shared.Extensions
+- uid: CG.Cryptography.Shared.Extensions.CryptographerExtensions
+  name: CryptographerExtensions
+  href: api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.html
+  commentId: T:CG.Cryptography.Shared.Extensions.CryptographerExtensions
+  fullName: CG.Cryptography.Shared.Extensions.CryptographerExtensions
+  nameWithType: CryptographerExtensions
+- uid: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,System.Byte[],CancellationToken)
+  name: AesDecryptAsync(ICryptographer, Byte[], CancellationToken)
+  href: api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.html#CG_Cryptography_Shared_Extensions_CryptographerExtensions_AesDecryptAsync_CG_Cryptography_ICryptographer_System_Byte___CancellationToken_
+  commentId: M:CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,System.Byte[],CancellationToken)
+  name.vb: AesDecryptAsync(ICryptographer, Byte(), CancellationToken)
+  fullName: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer, System.Byte[], CancellationToken)
+  fullName.vb: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer, System.Byte(), CancellationToken)
+  nameWithType: CryptographerExtensions.AesDecryptAsync(ICryptographer, Byte[], CancellationToken)
+  nameWithType.vb: CryptographerExtensions.AesDecryptAsync(ICryptographer, Byte(), CancellationToken)
+- uid: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,System.String,CancellationToken)
+  name: AesDecryptAsync(ICryptographer, String, CancellationToken)
+  href: api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.html#CG_Cryptography_Shared_Extensions_CryptographerExtensions_AesDecryptAsync_CG_Cryptography_ICryptographer_System_String_CancellationToken_
+  commentId: M:CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,System.String,CancellationToken)
+  fullName: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer, System.String, CancellationToken)
+  nameWithType: CryptographerExtensions.AesDecryptAsync(ICryptographer, String, CancellationToken)
+- uid: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync*
+  name: AesDecryptAsync
+  href: api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.html#CG_Cryptography_Shared_Extensions_CryptographerExtensions_AesDecryptAsync_
+  commentId: Overload:CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync
+  isSpec: "True"
+  fullName: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync
+  nameWithType: CryptographerExtensions.AesDecryptAsync
+- uid: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,System.Byte[],CancellationToken)
+  name: AesEncryptAsync(ICryptographer, Byte[], CancellationToken)
+  href: api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.html#CG_Cryptography_Shared_Extensions_CryptographerExtensions_AesEncryptAsync_CG_Cryptography_ICryptographer_System_Byte___CancellationToken_
+  commentId: M:CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,System.Byte[],CancellationToken)
+  name.vb: AesEncryptAsync(ICryptographer, Byte(), CancellationToken)
+  fullName: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer, System.Byte[], CancellationToken)
+  fullName.vb: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer, System.Byte(), CancellationToken)
+  nameWithType: CryptographerExtensions.AesEncryptAsync(ICryptographer, Byte[], CancellationToken)
+  nameWithType.vb: CryptographerExtensions.AesEncryptAsync(ICryptographer, Byte(), CancellationToken)
+- uid: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,System.String,CancellationToken)
+  name: AesEncryptAsync(ICryptographer, String, CancellationToken)
+  href: api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.html#CG_Cryptography_Shared_Extensions_CryptographerExtensions_AesEncryptAsync_CG_Cryptography_ICryptographer_System_String_CancellationToken_
+  commentId: M:CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,System.String,CancellationToken)
+  fullName: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer, System.String, CancellationToken)
+  nameWithType: CryptographerExtensions.AesEncryptAsync(ICryptographer, String, CancellationToken)
+- uid: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync*
+  name: AesEncryptAsync
+  href: api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.html#CG_Cryptography_Shared_Extensions_CryptographerExtensions_AesEncryptAsync_
+  commentId: Overload:CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync
+  isSpec: "True"
+  fullName: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync
+  nameWithType: CryptographerExtensions.AesEncryptAsync
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  href: api/Microsoft.AspNetCore.Builder.html
+  commentId: N:Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+- uid: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions
+  name: WebApplicationBuilderExtensions
+  href: api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html
+  commentId: T:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions
+  nameWithType: WebApplicationBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddSharedCryptography(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.String,System.Nullable{ILogger},ServiceLifetime)
+  name: AddSharedCryptography(WebApplicationBuilder, String, Nullable<ILogger>, ServiceLifetime)
+  href: api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddSharedCryptography_Microsoft_AspNetCore_Builder_WebApplicationBuilder_System_String_System_Nullable_ILogger__ServiceLifetime_
+  commentId: M:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddSharedCryptography(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.String,System.Nullable{ILogger},ServiceLifetime)
+  name.vb: AddSharedCryptography(WebApplicationBuilder, String, Nullable(Of ILogger), ServiceLifetime)
+  fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddSharedCryptography(Microsoft.AspNetCore.Builder.WebApplicationBuilder, System.String, System.Nullable<ILogger>, ServiceLifetime)
+  fullName.vb: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddSharedCryptography(Microsoft.AspNetCore.Builder.WebApplicationBuilder, System.String, System.Nullable(Of ILogger), ServiceLifetime)
+  nameWithType: WebApplicationBuilderExtensions.AddSharedCryptography(WebApplicationBuilder, String, Nullable<ILogger>, ServiceLifetime)
+  nameWithType.vb: WebApplicationBuilderExtensions.AddSharedCryptography(WebApplicationBuilder, String, Nullable(Of ILogger), ServiceLifetime)
+- uid: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddSharedCryptography*
+  name: AddSharedCryptography
+  href: api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddSharedCryptography_
+  commentId: Overload:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddSharedCryptography
+  isSpec: "True"
+  fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddSharedCryptography
+  nameWithType: WebApplicationBuilderExtensions.AddSharedCryptography
