@@ -1,9 +1,9 @@
 # CG.Cryptography.Shared: 
 ---
-[![Build Status](https://dev.azure.com/codegator/CG.Cryptography.Shared/_apis/build/status/CodeGator.CG.Cryptography.Shared?branchName=main)](https://dev.azure.com/codegator/CG.Cryptography.Shared/_build/latest?definitionId=89&branchName=main)
+[![Build Status](https://dev.azure.com/codegator/CG.Cryptography.Shared/_apis/build/status/CodeGator.CG.Cryptography.Shared?branchName=main)](https://dev.azure.com/codegator/CG.Cryptography.Shared/_build/latest?definitionId=91&branchName=main)
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Cryptography.Shared/index.html)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Cryptography.Shared.svg?style=flat)](https://nuget.org/packages/CG.Cryptography.Shared)
-![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Cryptography.Shared/89)
+![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Cryptography.Shared/91)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Cryptography.Shared/discussions)
 [![CG.Cryptography.Shared on fuget.org](https://www.fuget.org/packages/CG.Cryptography.Shared/badge.svg)](https://www.fuget.org/packages/CG.Cryptography.Shared)
 
