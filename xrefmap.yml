@@ -69,19 +69,19 @@ references:
   commentId: T:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions
   fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions
   nameWithType: WebApplicationBuilderExtensions
-- uid: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddSharedCryptography(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.String,System.Nullable{ILogger},ServiceLifetime)
-  name: AddSharedCryptography(WebApplicationBuilder, String, Nullable<ILogger>, ServiceLifetime)
-  href: api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddSharedCryptography_Microsoft_AspNetCore_Builder_WebApplicationBuilder_System_String_System_Nullable_ILogger__ServiceLifetime_
-  commentId: M:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddSharedCryptography(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.String,System.Nullable{ILogger},ServiceLifetime)
-  name.vb: AddSharedCryptography(WebApplicationBuilder, String, Nullable(Of ILogger), ServiceLifetime)
-  fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddSharedCryptography(Microsoft.AspNetCore.Builder.WebApplicationBuilder, System.String, System.Nullable<ILogger>, ServiceLifetime)
-  fullName.vb: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddSharedCryptography(Microsoft.AspNetCore.Builder.WebApplicationBuilder, System.String, System.Nullable(Of ILogger), ServiceLifetime)
-  nameWithType: WebApplicationBuilderExtensions.AddSharedCryptography(WebApplicationBuilder, String, Nullable<ILogger>, ServiceLifetime)
-  nameWithType.vb: WebApplicationBuilderExtensions.AddSharedCryptography(WebApplicationBuilder, String, Nullable(Of ILogger), ServiceLifetime)
-- uid: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddSharedCryptography*
-  name: AddSharedCryptography
-  href: api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddSharedCryptography_
-  commentId: Overload:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddSharedCryptography
+- uid: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.String,System.Nullable{ILogger},ServiceLifetime)
+  name: AddCryptographyWithSharedKeys(WebApplicationBuilder, String, Nullable<ILogger>, ServiceLifetime)
+  href: api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddCryptographyWithSharedKeys_Microsoft_AspNetCore_Builder_WebApplicationBuilder_System_String_System_Nullable_ILogger__ServiceLifetime_
+  commentId: M:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.String,System.Nullable{ILogger},ServiceLifetime)
+  name.vb: AddCryptographyWithSharedKeys(WebApplicationBuilder, String, Nullable(Of ILogger), ServiceLifetime)
+  fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys(Microsoft.AspNetCore.Builder.WebApplicationBuilder, System.String, System.Nullable<ILogger>, ServiceLifetime)
+  fullName.vb: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys(Microsoft.AspNetCore.Builder.WebApplicationBuilder, System.String, System.Nullable(Of ILogger), ServiceLifetime)
+  nameWithType: WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys(WebApplicationBuilder, String, Nullable<ILogger>, ServiceLifetime)
+  nameWithType.vb: WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys(WebApplicationBuilder, String, Nullable(Of ILogger), ServiceLifetime)
+- uid: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys*
+  name: AddCryptographyWithSharedKeys
+  href: api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddCryptographyWithSharedKeys_
+  commentId: Overload:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys
   isSpec: "True"
-  fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddSharedCryptography
-  nameWithType: WebApplicationBuilderExtensions.AddSharedCryptography
+  fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys
+  nameWithType: WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys
