@@ -29,7 +29,7 @@ public static partial class WebApplicationBuilderExtensions
     /// parameter, for chaining calls together, Fluent style.</returns>
     /// <exception cref="ArgumentException">This exception is thrown whenever
     /// one or more arguments are missing, or invalid.</exception>
-    public static WebApplicationBuilder AddSharedCryptography(
+    public static WebApplicationBuilder AddCryptographyWithSharedKeys(
         this WebApplicationBuilder webApplicationBuilder,
         string sectionName = "Cryptography",
         ILogger? bootstrapLogger = null,
