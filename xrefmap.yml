@@ -57,6 +57,44 @@ references:
   isSpec: "True"
   fullName: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync
   nameWithType: CryptographerExtensions.AesEncryptAsync
+- uid: CG.Orange.Cryptography.Shared.Options
+  name: CG.Orange.Cryptography.Shared.Options
+  href: api/CG.Orange.Cryptography.Shared.Options.html
+  commentId: N:CG.Orange.Cryptography.Shared.Options
+  fullName: CG.Orange.Cryptography.Shared.Options
+  nameWithType: CG.Orange.Cryptography.Shared.Options
+- uid: CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions
+  name: SharedCryptographyOptions
+  href: api/CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.html
+  commentId: T:CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions
+  fullName: CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions
+  nameWithType: SharedCryptographyOptions
+- uid: CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.SharedPassword
+  name: SharedPassword
+  href: api/CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.html#CG_Orange_Cryptography_Shared_Options_SharedCryptographyOptions_SharedPassword
+  commentId: P:CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.SharedPassword
+  fullName: CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.SharedPassword
+  nameWithType: SharedCryptographyOptions.SharedPassword
+- uid: CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.SharedPassword*
+  name: SharedPassword
+  href: api/CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.html#CG_Orange_Cryptography_Shared_Options_SharedCryptographyOptions_SharedPassword_
+  commentId: Overload:CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.SharedPassword
+  isSpec: "True"
+  fullName: CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.SharedPassword
+  nameWithType: SharedCryptographyOptions.SharedPassword
+- uid: CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.SharedSalt
+  name: SharedSalt
+  href: api/CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.html#CG_Orange_Cryptography_Shared_Options_SharedCryptographyOptions_SharedSalt
+  commentId: P:CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.SharedSalt
+  fullName: CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.SharedSalt
+  nameWithType: SharedCryptographyOptions.SharedSalt
+- uid: CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.SharedSalt*
+  name: SharedSalt
+  href: api/CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.html#CG_Orange_Cryptography_Shared_Options_SharedCryptographyOptions_SharedSalt_
+  commentId: Overload:CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.SharedSalt
+  isSpec: "True"
+  fullName: CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.SharedSalt
+  nameWithType: SharedCryptographyOptions.SharedSalt
 - uid: Microsoft.AspNetCore.Builder
   name: Microsoft.AspNetCore.Builder
   href: api/Microsoft.AspNetCore.Builder.html
@@ -69,6 +107,15 @@ references:
   commentId: T:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions
   fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions
   nameWithType: WebApplicationBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys(Microsoft.AspNetCore.Builder.WebApplicationBuilder,Action{SharedCryptographyOptions},System.Nullable{ILogger},ServiceLifetime)
+  name: AddCryptographyWithSharedKeys(WebApplicationBuilder, Action<SharedCryptographyOptions>, Nullable<ILogger>, ServiceLifetime)
+  href: api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddCryptographyWithSharedKeys_Microsoft_AspNetCore_Builder_WebApplicationBuilder_Action_SharedCryptographyOptions__System_Nullable_ILogger__ServiceLifetime_
+  commentId: M:Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys(Microsoft.AspNetCore.Builder.WebApplicationBuilder,Action{SharedCryptographyOptions},System.Nullable{ILogger},ServiceLifetime)
+  name.vb: AddCryptographyWithSharedKeys(WebApplicationBuilder, Action(Of SharedCryptographyOptions), Nullable(Of ILogger), ServiceLifetime)
+  fullName: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys(Microsoft.AspNetCore.Builder.WebApplicationBuilder, Action<SharedCryptographyOptions>, System.Nullable<ILogger>, ServiceLifetime)
+  fullName.vb: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys(Microsoft.AspNetCore.Builder.WebApplicationBuilder, Action(Of SharedCryptographyOptions), System.Nullable(Of ILogger), ServiceLifetime)
+  nameWithType: WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys(WebApplicationBuilder, Action<SharedCryptographyOptions>, Nullable<ILogger>, ServiceLifetime)
+  nameWithType.vb: WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys(WebApplicationBuilder, Action(Of SharedCryptographyOptions), Nullable(Of ILogger), ServiceLifetime)
 - uid: Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.AddCryptographyWithSharedKeys(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.String,System.Nullable{ILogger},ServiceLifetime)
   name: AddCryptographyWithSharedKeys(WebApplicationBuilder, String, Nullable<ILogger>, ServiceLifetime)
   href: api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_WebApplicationBuilderExtensions_AddCryptographyWithSharedKeys_Microsoft_AspNetCore_Builder_WebApplicationBuilder_System_String_System_Nullable_ILogger__ServiceLifetime_

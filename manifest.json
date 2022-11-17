@@ -38,11 +38,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Orange.Cryptography.Shared.Options.SharedCryptographyOptions.html",
+          "hash": "RzNd36K+hnNANNI7zpaCOKVyayNqLa1msRGgiVvgb1w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Orange.Cryptography.Shared.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Orange.Cryptography.Shared.Options.html",
+          "hash": "Wf8/eS8cS2tQSI1fGloElcTqt10AYDx3rHrqPD7k1Og="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.yml",
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.AspNetCore.Builder.WebApplicationBuilderExtensions.html",
-          "hash": "5Z+tLY+oH7tXSWlHgpr560RHGSdnMk8W06xDPegJKhg="
+          "hash": "zU268G3hmBwYoeGAni5lis/ROKbkEWrqDaSy00St8/c="
         }
       },
       "is_incremental": false,
@@ -78,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "BUmPpOn1Y7sBcFb/t48dY1VSthVyiyAX/u84Ri4RfFs="
+          "hash": "rWhjmNXFP0jF4MeVMUp2u+YoAyTiVOZ1FuWcWVJavdc="
         }
       },
       "is_incremental": false,
@@ -197,7 +221,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 6,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
