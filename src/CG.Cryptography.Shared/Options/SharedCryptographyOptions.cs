@@ -5,7 +5,7 @@ namespace CG.Orange.Cryptography.Shared.Options;
 /// This class contains configuration settings related to cryptographic 
 /// operations.
 /// </summary>
-internal class SharedCryptographyOptions
+public class SharedCryptographyOptions
 {
     // *******************************************************************
     // Properties.
