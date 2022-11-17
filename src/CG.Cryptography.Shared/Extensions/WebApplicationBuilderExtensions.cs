@@ -111,7 +111,7 @@ public static partial class WebApplicationBuilderExtensions
         Guard.Instance().ThrowIfNull(webApplicationBuilder, nameof(webApplicationBuilder));
 
         // Tell the world what we are about to do.
-        bootstrapLogger?.LogInformation(
+        bootstrapLogger?.LogDebug(
             "Configuring shared cryptographic startup options from " +
             "the {section} section",
             sectionName
@@ -124,7 +124,7 @@ public static partial class WebApplicationBuilderExtensions
             );
 
         // Tell the world what we are about to do.
-        bootstrapLogger?.LogInformation(
+        bootstrapLogger?.LogDebug(
             "Wiring up the shared cryptography library using {lifetime} lifetime",
             Enum.GetName(serviceLifetime)
             );
