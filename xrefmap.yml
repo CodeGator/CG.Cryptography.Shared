@@ -1,61 +1,61 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: CG.Cryptography.Shared.Extensions
-  name: CG.Cryptography.Shared.Extensions
-  href: api/CG.Cryptography.Shared.Extensions.html
-  commentId: N:CG.Cryptography.Shared.Extensions
-  fullName: CG.Cryptography.Shared.Extensions
-  nameWithType: CG.Cryptography.Shared.Extensions
-- uid: CG.Cryptography.Shared.Extensions.CryptographerExtensions
+- uid: CG.Cryptography
+  name: CG.Cryptography
+  href: api/CG.Cryptography.html
+  commentId: N:CG.Cryptography
+  fullName: CG.Cryptography
+  nameWithType: CG.Cryptography
+- uid: CG.Cryptography.CryptographerExtensions
   name: CryptographerExtensions
-  href: api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.html
-  commentId: T:CG.Cryptography.Shared.Extensions.CryptographerExtensions
-  fullName: CG.Cryptography.Shared.Extensions.CryptographerExtensions
+  href: api/CG.Cryptography.CryptographerExtensions.html
+  commentId: T:CG.Cryptography.CryptographerExtensions
+  fullName: CG.Cryptography.CryptographerExtensions
   nameWithType: CryptographerExtensions
-- uid: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,System.Byte[],CancellationToken)
+- uid: CG.Cryptography.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,System.Byte[],CancellationToken)
   name: AesDecryptAsync(ICryptographer, Byte[], CancellationToken)
-  href: api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.html#CG_Cryptography_Shared_Extensions_CryptographerExtensions_AesDecryptAsync_CG_Cryptography_ICryptographer_System_Byte___CancellationToken_
-  commentId: M:CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,System.Byte[],CancellationToken)
+  href: api/CG.Cryptography.CryptographerExtensions.html#CG_Cryptography_CryptographerExtensions_AesDecryptAsync_CG_Cryptography_ICryptographer_System_Byte___CancellationToken_
+  commentId: M:CG.Cryptography.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,System.Byte[],CancellationToken)
   name.vb: AesDecryptAsync(ICryptographer, Byte(), CancellationToken)
-  fullName: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer, System.Byte[], CancellationToken)
-  fullName.vb: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer, System.Byte(), CancellationToken)
+  fullName: CG.Cryptography.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer, System.Byte[], CancellationToken)
+  fullName.vb: CG.Cryptography.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer, System.Byte(), CancellationToken)
   nameWithType: CryptographerExtensions.AesDecryptAsync(ICryptographer, Byte[], CancellationToken)
   nameWithType.vb: CryptographerExtensions.AesDecryptAsync(ICryptographer, Byte(), CancellationToken)
-- uid: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,System.String,CancellationToken)
+- uid: CG.Cryptography.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,System.String,CancellationToken)
   name: AesDecryptAsync(ICryptographer, String, CancellationToken)
-  href: api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.html#CG_Cryptography_Shared_Extensions_CryptographerExtensions_AesDecryptAsync_CG_Cryptography_ICryptographer_System_String_CancellationToken_
-  commentId: M:CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,System.String,CancellationToken)
-  fullName: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer, System.String, CancellationToken)
+  href: api/CG.Cryptography.CryptographerExtensions.html#CG_Cryptography_CryptographerExtensions_AesDecryptAsync_CG_Cryptography_ICryptographer_System_String_CancellationToken_
+  commentId: M:CG.Cryptography.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,System.String,CancellationToken)
+  fullName: CG.Cryptography.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer, System.String, CancellationToken)
   nameWithType: CryptographerExtensions.AesDecryptAsync(ICryptographer, String, CancellationToken)
-- uid: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync*
+- uid: CG.Cryptography.CryptographerExtensions.AesDecryptAsync*
   name: AesDecryptAsync
-  href: api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.html#CG_Cryptography_Shared_Extensions_CryptographerExtensions_AesDecryptAsync_
-  commentId: Overload:CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync
+  href: api/CG.Cryptography.CryptographerExtensions.html#CG_Cryptography_CryptographerExtensions_AesDecryptAsync_
+  commentId: Overload:CG.Cryptography.CryptographerExtensions.AesDecryptAsync
   isSpec: "True"
-  fullName: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesDecryptAsync
+  fullName: CG.Cryptography.CryptographerExtensions.AesDecryptAsync
   nameWithType: CryptographerExtensions.AesDecryptAsync
-- uid: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,System.Byte[],CancellationToken)
+- uid: CG.Cryptography.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,System.Byte[],CancellationToken)
   name: AesEncryptAsync(ICryptographer, Byte[], CancellationToken)
-  href: api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.html#CG_Cryptography_Shared_Extensions_CryptographerExtensions_AesEncryptAsync_CG_Cryptography_ICryptographer_System_Byte___CancellationToken_
-  commentId: M:CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,System.Byte[],CancellationToken)
+  href: api/CG.Cryptography.CryptographerExtensions.html#CG_Cryptography_CryptographerExtensions_AesEncryptAsync_CG_Cryptography_ICryptographer_System_Byte___CancellationToken_
+  commentId: M:CG.Cryptography.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,System.Byte[],CancellationToken)
   name.vb: AesEncryptAsync(ICryptographer, Byte(), CancellationToken)
-  fullName: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer, System.Byte[], CancellationToken)
-  fullName.vb: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer, System.Byte(), CancellationToken)
+  fullName: CG.Cryptography.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer, System.Byte[], CancellationToken)
+  fullName.vb: CG.Cryptography.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer, System.Byte(), CancellationToken)
   nameWithType: CryptographerExtensions.AesEncryptAsync(ICryptographer, Byte[], CancellationToken)
   nameWithType.vb: CryptographerExtensions.AesEncryptAsync(ICryptographer, Byte(), CancellationToken)
-- uid: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,System.String,CancellationToken)
+- uid: CG.Cryptography.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,System.String,CancellationToken)
   name: AesEncryptAsync(ICryptographer, String, CancellationToken)
-  href: api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.html#CG_Cryptography_Shared_Extensions_CryptographerExtensions_AesEncryptAsync_CG_Cryptography_ICryptographer_System_String_CancellationToken_
-  commentId: M:CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,System.String,CancellationToken)
-  fullName: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer, System.String, CancellationToken)
+  href: api/CG.Cryptography.CryptographerExtensions.html#CG_Cryptography_CryptographerExtensions_AesEncryptAsync_CG_Cryptography_ICryptographer_System_String_CancellationToken_
+  commentId: M:CG.Cryptography.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,System.String,CancellationToken)
+  fullName: CG.Cryptography.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer, System.String, CancellationToken)
   nameWithType: CryptographerExtensions.AesEncryptAsync(ICryptographer, String, CancellationToken)
-- uid: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync*
+- uid: CG.Cryptography.CryptographerExtensions.AesEncryptAsync*
   name: AesEncryptAsync
-  href: api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.html#CG_Cryptography_Shared_Extensions_CryptographerExtensions_AesEncryptAsync_
-  commentId: Overload:CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync
+  href: api/CG.Cryptography.CryptographerExtensions.html#CG_Cryptography_CryptographerExtensions_AesEncryptAsync_
+  commentId: Overload:CG.Cryptography.CryptographerExtensions.AesEncryptAsync
   isSpec: "True"
-  fullName: CG.Cryptography.Shared.Extensions.CryptographerExtensions.AesEncryptAsync
+  fullName: CG.Cryptography.CryptographerExtensions.AesEncryptAsync
   nameWithType: CryptographerExtensions.AesEncryptAsync
 - uid: CG.Orange.Cryptography.Shared.Options
   name: CG.Orange.Cryptography.Shared.Options

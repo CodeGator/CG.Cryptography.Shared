@@ -14,11 +14,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.yml",
+      "source_relative_path": "api/CG.Cryptography.CryptographerExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Cryptography.Shared.Extensions.CryptographerExtensions.html",
-          "hash": "rcQOwQM1wRoSnF9rvlPuzEcPTphdsNdPgC4g6M1iu3M="
+          "relative_path": "api/CG.Cryptography.CryptographerExtensions.html",
+          "hash": "63Sd9wobq++DGPXtTcE8P4W/bEFx+1aeJ0lp0GHDzow="
         }
       },
       "is_incremental": false,
@@ -26,11 +26,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Cryptography.Shared.Extensions.yml",
+      "source_relative_path": "api/CG.Cryptography.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Cryptography.Shared.Extensions.html",
-          "hash": "7vA5y/sScpndZQJEZ8uqbWPAPP5eXfJxen8nfiqYwyY="
+          "relative_path": "api/CG.Cryptography.html",
+          "hash": "vbGg0aYeF7x4fwcGLP3aPBQMbtv7yB57FewosnK4JFA="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "rWhjmNXFP0jF4MeVMUp2u+YoAyTiVOZ1FuWcWVJavdc="
+          "hash": "TWDAyltVhLalALafV5HxHweKrA4A0CCAsLZP9E0B0Yw="
         }
       },
       "is_incremental": false,
@@ -194,7 +194,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "O/nQ3ZZq6jjlea8BLygeWXO3ovAM2n1846sbGZqzww0="
+          "hash": "2ip9NrMf3IvwNrxrjznp/ts5Lx0qxEYbh9P/4B7z2t0="
         }
       },
       "is_incremental": false,
