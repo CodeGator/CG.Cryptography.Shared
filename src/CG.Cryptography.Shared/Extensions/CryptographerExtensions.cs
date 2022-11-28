@@ -1,5 +1,5 @@
 ﻿
-namespace CG.Cryptography.Shared.Extensions;
+namespace CG.Cryptography;
 
 /// <summary>
 /// This class contains extension methods related to the <see cref="ICryptographer"/>
