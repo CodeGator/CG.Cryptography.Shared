@@ -42,7 +42,7 @@ public static partial class CryptographerExtensions
         }
                 
         // Can we get shared credentials?
-        if (cryptographer.TryGetSharedCredentials(
+        if (!cryptographer.TryGetSharedCredentials(
             out var sharedKey,
             out var sharedIV
             ))
@@ -94,7 +94,7 @@ public static partial class CryptographerExtensions
         }
 
         // Can we get shared credentials?
-        if (cryptographer.TryGetSharedCredentials(
+        if (!cryptographer.TryGetSharedCredentials(
             out var sharedKey,
             out var sharedIV
             ))
@@ -145,7 +145,7 @@ public static partial class CryptographerExtensions
         }
 
         // Can we get shared credentials?
-        if (cryptographer.TryGetSharedCredentials(
+        if (!cryptographer.TryGetSharedCredentials(
             out var sharedKey,
             out var sharedIV
             ))
@@ -197,7 +197,7 @@ public static partial class CryptographerExtensions
         }
 
         // Can we get shared credentials?
-        if (cryptographer.TryGetSharedCredentials(
+        if (!cryptographer.TryGetSharedCredentials(
             out var sharedKey,
             out var sharedIV
             ))
