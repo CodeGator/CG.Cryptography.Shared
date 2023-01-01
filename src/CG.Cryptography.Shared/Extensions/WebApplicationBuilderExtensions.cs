@@ -42,7 +42,7 @@ public static partial class WebApplicationBuilderExtensions
 
         // Tell the world what we are about to do.
         bootstrapLogger?.LogDebug(
-            "Calling the options delegate"
+            "Calling the options delegate, for cryptography"
             );
 
         // Give the caller a change to change the options.
@@ -51,7 +51,7 @@ public static partial class WebApplicationBuilderExtensions
 
         // Tell the world what we are about to do.
         bootstrapLogger?.LogDebug(
-            "Validating the DAL startup options"
+            "Validating the options, for cryptography"
             );
 
         // Ensure the options are valid.
@@ -59,7 +59,7 @@ public static partial class WebApplicationBuilderExtensions
 
         // Tell the world what we are about to do.
         bootstrapLogger?.LogDebug(
-            "Wiring up the shared cryptography options"
+            "Wiring up the shared cryptography options, for cryptography"
             );
 
         // Ensure the options are available via the DI container.
