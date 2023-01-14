@@ -14,6 +14,58 @@ public static partial class CryptographerExtensions
     #region Public methods
 
     /// <summary>
+    /// This method encrypts the given stream using AES and a shared set
+    /// of credentials.
+    /// </summary>
+    /// <param name="cryptographer">The cryptographer to use for the 
+    /// operation.</param>
+    /// <param name="value">The value to use for the operation.</param>
+    /// <param name="cancellationToken">A cancellation token.</param>
+    /// <returns>A task to perform the operation that returns an encrypted stream.</returns>
+    /// <exception cref="ArgumentException">This exception is thrown whenever
+    /// one or more arguments are missing, or invalid.</exception>
+    /// <exception cref="CryptographicException">This exception is thrown 
+    /// whenever the operation fails to complete properly.</exception>
+    public static async Task<Stream> AesEncryptAsync(
+        this ICryptographer cryptographer,
+        Stream value,
+        CancellationToken cancellationToken = default
+        )
+    {
+        // Validate the parameters before attempting to use them.
+        Guard.Instance().ThrowIfNull(cryptographer, nameof(cryptographer))
+            .ThrowIfNull(value, nameof(value));
+
+        // Can we take a shortcut?
+        if (value.Length == 0)
+        {
+            return new MemoryStream();
+        }
+
+        // Can we get shared credentials?
+        if (!cryptographer.TryGetSharedCredentials(
+            out var sharedKey,
+            out var sharedIV
+            ))
+        {
+            // Panic!!
+            throw new CryptographicException(
+                message: $"Shared credentials not supported, or not available"
+                );
+        }
+
+        // Call the overload.
+        return await cryptographer.AesEncryptAsync(
+            sharedKey,
+            sharedIV,
+            value,
+            cancellationToken
+            ).ConfigureAwait(false);
+    }
+
+    // *******************************************************************
+
+    /// <summary>
     /// This method encrypts the given string using AES and a shared set
     /// of credentials.
     /// </summary>
@@ -107,6 +159,58 @@ public static partial class CryptographerExtensions
 
         // Call the overload.
         return await cryptographer.AesEncryptAsync(
+            sharedKey,
+            sharedIV,
+            value,
+            cancellationToken
+            ).ConfigureAwait(false);
+    }
+
+    // *******************************************************************
+
+    /// <summary>
+    /// This method decrypts the given stream using AES and a shared set
+    /// of credentials.
+    /// </summary>
+    /// <param name="cryptographer">The cryptographer to use for the 
+    /// operation.</param>
+    /// <param name="value">The value to use for the operation.</param>
+    /// <param name="cancellationToken">A cancellation token.</param>
+    /// <returns>A task to perform the operation that returns a decrypted stream.</returns>
+    /// <exception cref="ArgumentException">This exception is thrown whenever
+    /// one or more arguments are missing, or invalid.</exception>
+    /// <exception cref="CryptographicException">This exception is thrown 
+    /// whenever the operation fails to complete properly.</exception>
+    public static async Task<Stream> AesDecryptAsync(
+        this ICryptographer cryptographer,
+        Stream value,
+        CancellationToken cancellationToken = default
+        )
+    {
+        // Validate the parameters before attempting to use them.
+        Guard.Instance().ThrowIfNull(cryptographer, nameof(cryptographer))
+            .ThrowIfNull(value, nameof(value));
+
+        // Can we take a shortcut?
+        if (value.Length == 0)
+        {
+            return new MemoryStream();
+        }
+
+        // Can we get shared credentials?
+        if (!cryptographer.TryGetSharedCredentials(
+            out var sharedKey,
+            out var sharedIV
+            ))
+        {
+            // Panic!!
+            throw new CryptographicException(
+                message: $"Shared credentials not supported, or not available"
+                );
+        }
+
+        // Call the overload.
+        return await cryptographer.AesDecryptAsync(
             sharedKey,
             sharedIV,
             value,
