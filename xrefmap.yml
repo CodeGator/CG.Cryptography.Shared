@@ -13,6 +13,12 @@ references:
   commentId: T:CG.Cryptography.CryptographerExtensions
   fullName: CG.Cryptography.CryptographerExtensions
   nameWithType: CryptographerExtensions
+- uid: CG.Cryptography.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,Stream,CancellationToken)
+  name: AesDecryptAsync(ICryptographer, Stream, CancellationToken)
+  href: api/CG.Cryptography.CryptographerExtensions.html#CG_Cryptography_CryptographerExtensions_AesDecryptAsync_CG_Cryptography_ICryptographer_Stream_CancellationToken_
+  commentId: M:CG.Cryptography.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,Stream,CancellationToken)
+  fullName: CG.Cryptography.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer, Stream, CancellationToken)
+  nameWithType: CryptographerExtensions.AesDecryptAsync(ICryptographer, Stream, CancellationToken)
 - uid: CG.Cryptography.CryptographerExtensions.AesDecryptAsync(CG.Cryptography.ICryptographer,System.Byte[],CancellationToken)
   name: AesDecryptAsync(ICryptographer, Byte[], CancellationToken)
   href: api/CG.Cryptography.CryptographerExtensions.html#CG_Cryptography_CryptographerExtensions_AesDecryptAsync_CG_Cryptography_ICryptographer_System_Byte___CancellationToken_
@@ -35,6 +41,12 @@ references:
   isSpec: "True"
   fullName: CG.Cryptography.CryptographerExtensions.AesDecryptAsync
   nameWithType: CryptographerExtensions.AesDecryptAsync
+- uid: CG.Cryptography.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,Stream,CancellationToken)
+  name: AesEncryptAsync(ICryptographer, Stream, CancellationToken)
+  href: api/CG.Cryptography.CryptographerExtensions.html#CG_Cryptography_CryptographerExtensions_AesEncryptAsync_CG_Cryptography_ICryptographer_Stream_CancellationToken_
+  commentId: M:CG.Cryptography.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,Stream,CancellationToken)
+  fullName: CG.Cryptography.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer, Stream, CancellationToken)
+  nameWithType: CryptographerExtensions.AesEncryptAsync(ICryptographer, Stream, CancellationToken)
 - uid: CG.Cryptography.CryptographerExtensions.AesEncryptAsync(CG.Cryptography.ICryptographer,System.Byte[],CancellationToken)
   name: AesEncryptAsync(ICryptographer, Byte[], CancellationToken)
   href: api/CG.Cryptography.CryptographerExtensions.html#CG_Cryptography_CryptographerExtensions_AesEncryptAsync_CG_Cryptography_ICryptographer_System_Byte___CancellationToken_
